@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-from layers import LinearNorm, ConvNorm, UNetDown, UNetUp
+from model.layers import LinearNorm, ConvNorm, UNetDown, UNetUp
 
 class Embedding(nn.Module):
     def __init__(self, config):
